@@ -50,7 +50,7 @@
     "babel": "node test/rimraf-es5.js && babel lib --out-dir lib-es5",
     "bin": "node lib-es5/bin.js",
     "lint": "eslint-klopov . || true",
-    "prepublishOnly": "in-install || (eslint-klopov . && npm test && npm run babel)",
+    "prepublishOnly": "in-install || (eslint-klopov . && npm run babel)",
     "start": "node lib-es5/upload.js",
     "test": "ava"
   },
